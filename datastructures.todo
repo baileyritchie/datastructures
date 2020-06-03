@@ -1,0 +1,41 @@
+Complete these methods
+ Arrays:
+  ✔ size()/len() @done(20-05-31 18:21)
+  ✔ capacity() @done(20-05-31 18:22)
+   ✔ prepend(item) @done(20-05-31 19:16)
+  ✔ find(item) @done(20-05-31 20:14)
+  ☐ remove(item) -looks for value and removes index holding it (even if in multiple places)
+  ☐ fix delete and remove methods
+LinkedLists:
+  ✔ size() - returns number of data elements in list @done(20-06-01 18:08)
+  ✔ empty() - bool returns true if empty @done(20-06-01 18:08)
+  ✔ value_at(index) - returns the value of the nth item (starting at 0 for first) @done(20-06-02 12:21)
+  ✔ push_front(value) - adds an item to the front of the list @done(20-06-01 18:09)
+  ✔ find (val) - returns the index of the first appearance of a value @done(20-06-02 12:21)
+  ☐ pop_front() - remove front item and return its value
+  ☐ push_back(value) - adds an item at the end
+  ☐ pop_back() - removes end item and returns its value
+  ☐ front() - get value of front item
+  ☐ back() - get value of end item
+  ☐ insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+  ☐ erase(index) - removes node at given index
+  ☐ value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+  ☐ reverse() - reverses the list
+  ☐ remove_value(value) - removes the first item in the list with this value
+Stacks/Queues:
+  ☐ Implement using linked-list, with tail pointer:
+    ☐ enqueue(value) - adds value at position at tail
+    ☐ dequeue() - returns value and removes least recently added element (front)
+    ☐ empty()
+  ☐ Implement using fixed-sized array:
+    ☐ enqueue(value) - adds item at end of available storage
+    ☐ dequeue() - returns value and removes least recently added element
+    ☐ empty()
+    ☐ full()
+
+Hash Tables:
+  ☐ hash(k, m) - m is size of hash table
+  ☐ add(key, value) - if key already exists, update value
+  ☐ exists(key)
+  ☐ get(key)
+  ☐ remove(key)
